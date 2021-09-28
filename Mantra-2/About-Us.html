@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <title>Document</title>
+    <style>
+        @font-face {
+        font-family: Voga;
+        src: url("./font/Voga-Medium");
+
+    }
+    section {
+        padding: 60px 0;
+    }
+    .navbar #main-nav .navbar-nav a {
+      color: white;
+    }
+    
+    .navbar #main-nav .navbar-nav a:hover {
+      color: #f5f5f5;
+    }
+
+    nav #main-nav .navbar-nav .nav-item .nav-link {
+    background: linear-gradient(to bottom, #cfc09f 22%,#634f2c 24%, #cfc09f 26%, #cfc09f 27%,#ffecb3 40%,#3a2c0f 78%); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #fff;
+    position: relative;
+    font-size: 2rem;
+	text-transform: uppercase;	
+	margin: 0;
+	font-weight: 500;
+}
+
+nav #main-nav .navbar-nav .nav-item .nav-link:after {
+    background: none;
+    content: attr(data-heading);
+    left: 0;
+    top: 0;
+    z-index: -1;
+    position: absolute;
+    text-shadow: 
+		-1px 0 1px #c6bb9f, 
+		0 1px 1px #c6bb9f, 
+		5px 5px 10px rgba(0, 0, 0, 0.4),
+		-5px -5px 10px rgba(0, 0, 0, 0.4);
+}
+
+nav #main-nav .navbar-nav .nav-item .nav-link:hover {
+  background: linear-gradient(to bottom, #cfc09f 22%,#cfc09f 24%, #cfc09f 26%, #634f2c  27%,#ffecb3 40%,#3a2c0f 78%); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #fff;
+    position: relative;
+    text-transform: uppercase;	
+    margin: 0;
+    font-weight: 500;
+}
+    </style>
+</head>
+<body class="bg-dark">
+  <div style="background-image: url(./assets/louis-hansel-yLUvnCFI500-unsplash.jpg); height: 25vh; background-size: cover; background-position: center;">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-md  fixed-top bg-dark">
+       <div class="container-xxl">
+         <!-- navbar brand / title -->
+         <a class="navbar-brand d-block" href="./Home-Page.html">
+          <img src="./assets/Mantra-Logo(without-text).png" alt="mantra-logo-without-text" style="height: 100px; width: 80px;">
+          <img src="./assets/Mantra-Text.png" alt="Mantra-Logo" width="200" height="60">
+         </a>
+         <!-- toggle button for mobile nav -->
+         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+           <img src="./assets/Menu-icon.png" alt="Menu-icon" style="height: 30px; width: 30px;">
+         </button>
+   
+         <!-- navbar links -->
+         <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav" >
+           <ul class="navbar-nav" >
+            <li class="nav-item my-3">
+              <a class="nav-link" href="./About-Us.html" style="font-size: 25px;">About Us</a>
+            </li>
+             <li class="nav-item my-3">
+               <a class="nav-link" href="./Home-page.html#menu" style="font-size: 25px;">Menu</a>
+             </li>
+             <li class="nav-item my-3">
+               <a class="nav-link" href="./Home-page.html#event" style="font-size: 25px;">Events</a>
+             </li>
+             <li class="nav-item my-3">
+               <a class="nav-link" href="./Home-page.html#reservation" style="font-size: 25px;">Reserve</a>
+             </li>
+             <li class="nav-item my-3">
+              <a class="nav-link" href="./Home-page.html#gallery" style="font-size: 25px;">Gallery</a>
+            </li>
+             <li class="nav-item my-3">
+              <a class="nav-link" href="./Home-page.html#contact" style="font-size: 25px;">Contact</a>
+            </li>
+           </ul>
+         </div>
+     </nav>
+         <h3 class="display-1 mt-5 pt-5 text-light text-center fw-bold" style="position: relative; top: 1.7rem;">About Us</h3>
+        </div>
+        <div class="container-lg">
+            <p class="lead text-center text-light align-content-center justify-content-center" style="font-size: 2rem; position: relative; top: 4rem;">
+              Mantra Bar & Kitchen is the newest addition to the Doha’s Social Experience, featuring inside seating as well as outside balcony overlooking West Bay Skyline and an Arabian sea. Perfect Place to hang out, with great food and beverages including Choice of Beer, Spirits and our creative cocktails & mocktails.
+              Inside features a great atmosphere with lounge and bar set up, perfect lighting and a great music to lift your mood.Mantra Bar & Kitchen is a sophisticated space where you can enjoy delicious concoctions.
+              We serve variety of dishes specially designed by our chefs, which includes continental soup, salad, burger, pasta and tandoori dishes with the twist. 
+              Enjoy Our Daily Happy Hours from 3pm to 8pm with reduced rates on special beverages.
+            </p>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+</body>
+</html>
